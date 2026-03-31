@@ -324,7 +324,7 @@ export function Doctor(t0) {
   }
   let t19;
   if ($[32] !== diagnostic.recommendation) {
-    t19 = diagnostic.recommendation && <><Text /><Text color="warning">Recommendation: {diagnostic.recommendation.split("\n")[0]}</Text><Text dimColor={true}>{diagnostic.recommendation.split("\n")[1]}</Text></>;
+    t19 = diagnostic.recommendation && <><Text /><Text color="warning">Recommendation: {diagnostic.recommendation.split("\n")[0]}</Text><Text dimColor={true}>{diagnostic.recommendation.split("\n")[1] ?? ""}</Text></>;
     $[32] = diagnostic.recommendation;
     $[33] = t19;
   } else {
