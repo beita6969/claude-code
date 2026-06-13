@@ -5,8 +5,8 @@
 [![TypeScript](https://img.shields.io/badge/lang-TypeScript-3178c6?logo=typescript&logoColor=white)]()
 [![Lines of Code](https://img.shields.io/badge/lines-512K+-blue)]()
 [![License](https://img.shields.io/badge/license-research%20only-orange)]()
-[![Stars](https://img.shields.io/github/stars/beita6969/claude-code?style=social)](https://github.com/beita6969/claude-code/stargazers)
-[![Forks](https://img.shields.io/github/forks/beita6969/claude-code?style=social)](https://github.com/beita6969/claude-code/network/members)
+[![Stars](https://img.shields.io/github/stars/T-Lab-CUHKSZ/claude-code?style=social)](https://github.com/T-Lab-CUHKSZ/claude-code/stargazers)
+[![Forks](https://img.shields.io/github/forks/T-Lab-CUHKSZ/claude-code?style=social)](https://github.com/T-Lab-CUHKSZ/claude-code/network/members)
 
 > A **buildable, modifiable, and runnable** version of the Claude Code source.
 
@@ -26,7 +26,7 @@ Based on the Claude Code source snapshot publicly exposed on 2026-03-31 via an n
 ### Install & Run
 
 ```bash
-git clone https://github.com/beita6969/claude-code.git
+git clone https://github.com/T-Lab-CUHKSZ/claude-code.git
 cd claude-code
 
 # Install dependencies (auto-creates bun:bundle polyfill via postinstall)
@@ -213,4 +213,3 @@ const ENABLED_FEATURES = new Set([
 ---
 
 If this helps your research, please give it a ⭐!
-
